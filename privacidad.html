@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de Arenera Dashboard Flota: acceso, uso, almacenamiento, intercambio y eliminación de datos de Google.">
+  <title>Política de privacidad | Arenera Dashboard Flota</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header"><div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="Arenera Dashboard Flota, inicio"><span class="brand-mark" aria-hidden="true">AD</span><span>Arenera Don Antonio S.A.<small>Arenera Dashboard Flota</small></span></a>
+    <nav aria-label="Navegación principal"><a href="./">Inicio</a><a href="privacidad.html" aria-current="page">Privacidad</a><a href="terminos.html">Condiciones de uso</a></nav>
+  </div></header>
+  <main id="contenido" class="wrap document">
+
+    <p class="eyebrow">Arenera Dashboard Flota</p>
+    <h1>Política de privacidad</h1>
+    <p class="muted">Versión 1.0 · Documento preparado el 16 de septiembre de 2026.</p>
+    <p>Esta política describe el tratamiento de datos de la aplicación <strong>Arenera Dashboard Flota</strong> y distingue esa aplicación local de este sitio web informativo.</p>
+    <section><h2>1. Responsable y finalidad</h2>
+      <p><strong>Arenera Don Antonio S.A.</strong>, con actividad en Concepción del Uruguay, Entre Ríos, Argentina, administra la aplicación. El contacto para funcionamiento, privacidad y solicitudes sobre datos es <a href="mailto:areneradonantonio@gmail.com">areneradonantonio@gmail.com</a>.</p>
+      <p>La herramienta se utiliza para consolidar información operativa de flota, mantenimiento, tareas, compras y controles; generar reportes; actualizar las celdas previstas del parte operativo cuando esa función está habilitada; y distribuir el dashboard a destinatarios autorizados.</p>
+    </section>
+    <section><h2>2. Datos de Google y permisos solicitados</h2>
+      <p>El acceso requiere consentimiento mediante OAuth de Google. La contraseña se introduce, cuando corresponda, en Google: la aplicación no solicita ni guarda la contraseña de la cuenta.</p>
+      <dl class="permissions">
+        <dt>Google Sheets · Lectura y escritura</dt><dd><code>spreadsheets</code>. Se leen los valores y la estructura de las planillas configuradas. Pueden incluir identificación de equipos, nombres de responsables o proveedores, fechas, tareas, observaciones, compras y vigencias. La escritura se limita, en el funcionamiento de la aplicación, a las celdas previstas del parte operativo. El alcance técnico del permiso de Google es más amplio que esas celdas.</dd>
+        <dt>Gmail · Envío</dt><dd><code>gmail.send</code>. Se envía el reporte desde la cuenta autorizada a las direcciones configuradas. Se utilizan destinatarios, asunto, contenido del reporte e información de respuesta del envío.</dd>
+        <dt>Gmail · Consulta</dt><dd><code>gmail.readonly</code>. Se consultan mensajes enviados relacionados con el asunto del dashboard, sus identificadores y encabezados para evitar duplicados y comprobar el envío. El permiso de Google permite lectura del buzón, aunque la lógica del dashboard utiliza búsquedas de sus propios reportes; no se utiliza para campañas publicitarias ni para analizar la correspondencia ajena a esa finalidad.</dd>
+        <dt>Google Drive · Metadatos</dt><dd><code>drive.metadata.readonly</code>. Se consultan metadatos de los archivos fuente, como la fecha de modificación, para registrar qué información se revisó. Este permiso no se utiliza para publicar los archivos ni para conceder acceso a terceros.</dd>
+      </dl>
+      <p>Los permisos no convierten en públicos los documentos. El acceso a las fuentes sigue dependiendo de los permisos de la cuenta que autoriza la aplicación.</p>
+    </section>
+    <section><h2>3. Cómo se utilizan y comparten los datos</h2>
+      <p>Los datos obtenidos se utilizan para las funciones operativas descritas. Los reportes se comparten por Gmail con los destinatarios definidos y autorizados por la administración. Google procesa las solicitudes de sus APIs y el correo en el marco de sus servicios. El personal autorizado puede consultar los reportes para realizar su trabajo; cualquier asistencia técnica que requiera acceder a información identificable debe estar autorizada o amparada por las excepciones de seguridad u obligaciones aplicables.</p>
+      <p>No se venden los datos de Google, no se utilizan para publicidad, perfiles comerciales o evaluación crediticia, ni se transfieren a intermediarios de datos. La aplicación no utiliza esos datos para entrenar modelos generales de inteligencia artificial.</p>
+      <p><strong>Uso limitado:</strong> el uso y cualquier transferencia de información recibida de las APIs de Google se someten a la <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener noreferrer">Política de Datos de Usuario de los Servicios de API de Google</a>, incluidos sus requisitos de uso limitado (Limited Use). Una función o finalidad nueva que requiera otros datos se comunicará y autorizará antes de su utilización.</p>
+    </section>
+    <section><h2>4. Almacenamiento y protección</h2>
+      <p>La aplicación se ejecuta localmente en un equipo administrado por la empresa. Conserva un token de renovación OAuth en un archivo local de configuración; el token de acceso se utiliza durante la ejecución. También puede conservar vistas previas HTML, registros de ejecución, fechas y asuntos enviados, identificadores o huellas de control e información necesaria para evitar duplicados y auditar cambios.</p>
+      <p>Los datos fuente permanecen en las planillas de Google. Los reportes enviados permanecen en Gmail y en los buzones de sus destinatarios. La protección de los archivos locales depende de los permisos y medidas de seguridad del equipo; no se atribuye al programa un cifrado de archivos que no implemente. Las comunicaciones con las APIs de Google utilizan HTTPS.</p>
+      <p>Este sitio público y su repositorio no reciben los tokens OAuth ni los datos operativos mediante el dashboard. No deben publicarse allí credenciales, configuraciones, reportes reales ni copias de las planillas.</p>
+    </section>
+    <section><h2>5. Conservación, revocación y eliminación</h2>
+      <p>La aplicación no establece un borrado automático general de todas las vistas previas, registros y correos. Su administración corresponde a la empresa. Las credenciales se conservan localmente para permitir ejecuciones autorizadas hasta su revocación o eliminación; los registros y reportes se conservan para seguimiento operativo y trazabilidad y deben revisarse cuando dejen de ser necesarios.</p>
+      <p>El titular de la cuenta puede retirar el acceso en <a href="https://myaccount.google.com/connections" rel="noopener noreferrer">las conexiones con aplicaciones de su cuenta de Google</a>. La retirada impide renovar el acceso; no borra por sí sola las planillas, los reportes ya enviados ni sus copias. El administrador puede desactivar la tarea local y eliminar la credencial y los archivos locales correspondientes.</p>
+      <p>Para solicitar acceso, corrección o eliminación de datos tratados por esta aplicación, escribí a <a href="mailto:areneradonantonio@gmail.com">areneradonantonio@gmail.com</a> indicando tu relación con los datos y el alcance de la solicitud. La administración verificará la identidad y el alcance antes de actuar. Las necesidades de conservación de registros y las copias que estén bajo control de otros destinatarios se informarán al atender la solicitud.</p>
+    </section>
+    <section><h2>6. Este sitio web informativo</h2>
+      <p>Las páginas de presentación, privacidad y condiciones no tienen formularios, inicio de sesión, publicidad ni herramientas de analítica incorporadas por Arenera Don Antonio. No ejecutan OAuth ni permiten consultar reportes.</p>
+      <p>El sitio se publica mediante GitHub Pages. GitHub puede procesar datos técnicos de la visita, como dirección IP e información de la solicitud, de acuerdo con su <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">declaración de privacidad</a>. Seguir enlaces a Google u otros servicios implica acceder a sitios con sus propias políticas.</p>
+      <p>Si enviás una consulta al correo de contacto, se recibirán tu dirección y el contenido que incluyas, para responder esa consulta. No adjuntes contraseñas ni tokens.</p>
+    </section>
+    <section><h2>7. Cambios y consultas</h2><p>Esta política se actualizará si cambia el tratamiento descrito, indicando la fecha y versión. Los cambios de finalidad o de acceso a datos se comunicarán a los usuarios y se solicitará un nuevo consentimiento cuando corresponda antes de aplicarlos. Contacto: <a href="mailto:areneradonantonio@gmail.com">areneradonantonio@gmail.com</a>.</p></section>
+
+  </main>
+  <footer class="site-footer"><div class="wrap"><p>Arenera Don Antonio S.A. · Información de Arenera Dashboard Flota</p><p><a href="./">Inicio</a> · <a href="privacidad.html">Política de privacidad</a> · <a href="terminos.html">Condiciones de uso</a></p></div></footer>
+</body>
+</html>
